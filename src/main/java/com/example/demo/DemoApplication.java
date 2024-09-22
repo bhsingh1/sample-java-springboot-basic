@@ -12,7 +12,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World!";
+        return "Hello! Hope you are doing well. This is a sample application running on OpenShift 4.16! We thank you for your time to let us present this demo. Wishing you a great day!";
     }
 
     public static void main(String[] args) {
